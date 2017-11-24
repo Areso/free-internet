@@ -4,4 +4,4 @@ sudo nano security.conf
 Header set X-Frame-Options: "ALLOW_FROM https://www.google.ru"
 Header set Content-Security-Policy: "frame-ancestros https://www.google.ru"
 
-cd /var/www
+cd /var/www/html
